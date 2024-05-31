@@ -16,7 +16,7 @@ loginBtn.addEventListener("click", function(){
     })
     localStorage.setItem('loginUser', JSON.stringify(newArr))
     if(newArr.length != 0){
-        window.location.href = 'home.html'
+        window.location.href = 'https://sohila-esaam.github.io/login-page/home.html'
     }
     else{
         let arrError = signUpList.filter( (item) => {
