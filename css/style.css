@@ -1,0 +1,66 @@
+:root{
+    --main-color: #24353F;
+    --sec-color: #17a2b8;
+}
+.main , .home{
+    height: 100vh;
+    background-color: var(--main-color);
+}
+.main-content{
+    background-color: var(--main-color);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color: var(--sec-color);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+}
+.w-90{
+    width: 90%;
+}
+.btn{
+    border-color: var(--sec-color);
+    color: var(--sec-color);
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: var(--sec-color);
+    color: white;
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid #B6B6B6;
+    border-radius: 6px;
+}
+.form-control:focus{
+    border-color: #007bff ;
+    box-shadow: 0 0 0 transparent;
+    background-color: transparent;
+}
+.form-control::placeholder {
+    color: #B6B6B6 !important;
+    opacity: 1;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover{
+    text-decoration: underline;
+}
+.home{
+    position: relative;
+}
+.home button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#logout-btn{
+    background-color: var(--sec-color);
+}

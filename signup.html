@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section class="main d-flex justify-content-center align-items-center">
+        <div class="main-content w-75 text-center">
+            <h1 class="my-3">Smart Login System</h1>
+            <input id="nameIn" type="text" placeholder="Enter Your Name" class="form-control w-90 m-auto my-3 py-2 text-white">
+            <p class="nameValid alert alert-danger w-90 mx-auto text-start p-2 d-none">name not valid</p>
+            <input id="emailIn" type="text" placeholder="Enter Your Email" class="form-control w-90 m-auto my-3 py-2 text-white">
+            <p class="emailValidIn alert alert-danger w-90 mx-auto text-start p-2 d-none">email not valid</p>
+            <p class="alreadyExists alert alert-danger w-90 mx-auto text-start p-2 d-none">this is email alreadyExists</p>
+            <input id="PasswordIn" type="password" placeholder="Enter Your Password" class="form-control w-90 m-auto my-3 py-2 text-white">
+            <p class="passwordValidIn alert alert-danger w-90 mx-auto text-start p-2 d-none">password not valid</p>
+            <button class="btn signup-btn w-90 my-3 m-auto">Sign Up</button>
+            <p class="text-white mt-3 mb-4">Don’t have an account? <a href="index.html">Signin</a></p>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
